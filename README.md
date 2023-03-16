@@ -1,3 +1,1 @@
-# template
-
-update package.json
+# 3e8-editor

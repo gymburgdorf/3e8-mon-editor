@@ -8,6 +8,6 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/lib.ts'),
       name: 'lib',
       fileName: 'lib',
-    },
+    }
   },
 })
