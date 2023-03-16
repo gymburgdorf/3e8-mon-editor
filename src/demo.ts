@@ -1,3 +1,5 @@
-import {lib} from "./lib"
+import {createEditor} from "./lib.js"
 
-lib()
+const app = document.querySelector(".app") as HTMLElement
+
+createEditor(app, "hello")
