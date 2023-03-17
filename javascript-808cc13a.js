@@ -1,5 +1,5 @@
-import { conf as t, language as e } from "./typescript-459f340b.js";
-import "./lib-622ac76d.js";
+import { conf as t, language as e } from "./typescript-a86080f3.js";
+import "./lib-cac23a22.js";
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Version: 0.36.1(6c56744c3419458f0dd48864520b759d1a3a1ca8)

@@ -67643,37 +67643,37 @@ _e({
   id: "freemarker2",
   extensions: [".ftl", ".ftlh", ".ftlx"],
   aliases: ["FreeMarker2", "Apache FreeMarker2"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagAutoInterpolationDollar)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagAutoInterpolationDollar)
 });
 _e({
   id: "freemarker2.tag-angle.interpolation-dollar",
   aliases: ["FreeMarker2 (Angle/Dollar)", "Apache FreeMarker2 (Angle/Dollar)"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagAngleInterpolationDollar)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagAngleInterpolationDollar)
 });
 _e({
   id: "freemarker2.tag-bracket.interpolation-dollar",
   aliases: ["FreeMarker2 (Bracket/Dollar)", "Apache FreeMarker2 (Bracket/Dollar)"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagBracketInterpolationDollar)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagBracketInterpolationDollar)
 });
 _e({
   id: "freemarker2.tag-angle.interpolation-bracket",
   aliases: ["FreeMarker2 (Angle/Bracket)", "Apache FreeMarker2 (Angle/Bracket)"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagAngleInterpolationBracket)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagAngleInterpolationBracket)
 });
 _e({
   id: "freemarker2.tag-bracket.interpolation-bracket",
   aliases: ["FreeMarker2 (Bracket/Bracket)", "Apache FreeMarker2 (Bracket/Bracket)"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagBracketInterpolationBracket)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagBracketInterpolationBracket)
 });
 _e({
   id: "freemarker2.tag-auto.interpolation-dollar",
   aliases: ["FreeMarker2 (Auto/Dollar)", "Apache FreeMarker2 (Auto/Dollar)"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagAutoInterpolationDollar)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagAutoInterpolationDollar)
 });
 _e({
   id: "freemarker2.tag-auto.interpolation-bracket",
   aliases: ["FreeMarker2 (Auto/Bracket)", "Apache FreeMarker2 (Auto/Bracket)"],
-  loader: () => import("./freemarker2-ff7578cf.js").then((o) => o.TagAutoInterpolationBracket)
+  loader: () => import("./freemarker2-2325734b.js").then((o) => o.TagAutoInterpolationBracket)
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -67711,7 +67711,7 @@ _e({
   extensions: [".handlebars", ".hbs"],
   aliases: ["Handlebars", "handlebars", "hbs"],
   mimetypes: ["text/x-handlebars-template"],
-  loader: () => import("./handlebars-ca191454.js")
+  loader: () => import("./handlebars-2d1e06b0.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -67736,7 +67736,7 @@ _e({
   extensions: [".html", ".htm", ".shtml", ".xhtml", ".mdoc", ".jsp", ".asp", ".aspx", ".jshtm"],
   aliases: ["HTML", "htm", "html", "xhtml"],
   mimetypes: ["text/html", "text/x-jshtm", "text/template", "text/ng-template"],
-  loader: () => import("./html-51882bf0.js")
+  loader: () => import("./html-b8c895b7.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -67777,7 +67777,7 @@ _e({
   filenames: ["jakefile"],
   aliases: ["JavaScript", "javascript", "js"],
   mimetypes: ["text/javascript"],
-  loader: () => import("./javascript-16ecdabd.js")
+  loader: () => import("./javascript-808cc13a.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -67852,7 +67852,7 @@ _e({
   extensions: [".liquid", ".html.liquid"],
   aliases: ["Liquid", "liquid"],
   mimetypes: ["application/liquid"],
-  loader: () => import("./liquid-afec29e9.js")
+  loader: () => import("./liquid-adfa6d95.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -68071,7 +68071,7 @@ _e({
   extensions: [".py", ".rpy", ".pyw", ".cpy", ".gyp", ".gypi"],
   aliases: ["Python", "py"],
   firstLine: "^#!/.*\\bpython[0-9.-]*\\b",
-  loader: () => import("./python-c2665a99.js")
+  loader: () => import("./python-26341c5e.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -68108,7 +68108,7 @@ _e({
   extensions: [".cshtml"],
   aliases: ["Razor", "razor"],
   mimetypes: ["text/x-cshtml"],
-  loader: () => import("./razor-5f9520c1.js")
+  loader: () => import("./razor-d714bd98.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -68360,7 +68360,7 @@ _e({
   extensions: [".ts", ".tsx"],
   aliases: ["TypeScript", "ts", "typescript"],
   mimetypes: ["text/typescript"],
-  loader: () => import("./typescript-459f340b.js")
+  loader: () => import("./typescript-a86080f3.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -68402,7 +68402,7 @@ _e({
   firstLine: "(\\<\\?xml.*)|(\\<svg)|(\\<\\!doctype\\s+svg)",
   aliases: ["XML", "xml"],
   mimetypes: ["text/xml", "application/xml", "application/xaml+xml", "application/xml-dtd"],
-  loader: () => import("./xml-7408deba.js")
+  loader: () => import("./xml-a3ebb188.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -68415,7 +68415,7 @@ _e({
   extensions: [".yaml", ".yml"],
   aliases: ["YAML", "yaml", "YML", "yml"],
   mimetypes: ["application/x-yaml", "text/x-yaml"],
-  loader: () => import("./yaml-bfc1861c.js")
+  loader: () => import("./yaml-27dfcaac.js")
 });
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -68510,7 +68510,7 @@ var RN = class {
 }, Q7 = new RN("css", PN, ON), J7 = new RN("scss", PN, ON), e8 = new RN("less", PN, ON);
 Ef.languages.css = { cssDefaults: Q7, lessDefaults: e8, scssDefaults: J7 };
 function FN() {
-  return import("./cssMode-5afb62b2.js");
+  return import("./cssMode-13a7def5.js");
 }
 Ef.languages.onLanguage("less", () => {
   FN().then((o) => o.setupMode(e8));
@@ -68605,7 +68605,7 @@ Aw.languages.html = {
   registerHTMLLanguageService: Ow
 };
 function Wse() {
-  return import("./htmlMode-a4e08513.js");
+  return import("./htmlMode-4b148ea0.js");
 }
 function Ow(o, e = Rw, t = Pw(o)) {
   const i = new Rse(o, e, t);
@@ -68682,7 +68682,7 @@ var jse = class {
 }, s8 = new jse("json", Kse, qse);
 hb.languages.json = { jsonDefaults: s8 };
 function Gse() {
-  return import("./jsonMode-32e3c73e.js");
+  return import("./jsonMode-3ee14b3d.js");
 }
 hb.languages.register({
   id: "json",
@@ -68845,7 +68845,7 @@ sf.languages.typescript = {
   getJavaScriptWorker: noe
 };
 function Fw() {
-  return import("./tsMode-9ccd77d6.js");
+  return import("./tsMode-e73cd5a6.js");
 }
 sf.languages.onLanguage("typescript", () => Fw().then((o) => o.setupTypeScript(u8)));
 sf.languages.onLanguage("javascript", () => Fw().then((o) => o.setupJavaScript(g8)));
@@ -99414,19 +99414,19 @@ class Bfe extends de {
 }
 te(Bfe);
 function Wfe() {
-  return new Worker("https://gymburgdorf.github.io/3e8-editor/assets/editor.worker-d809e5e3.js");
+  return new Worker("/assets/editor.worker-d809e5e3.js");
 }
 function Vfe() {
-  return new Worker("https://gymburgdorf.github.io/3e8-editor/assets/json.worker-46278648.js");
+  return new Worker("/assets/json.worker-46278648.js");
 }
 function Hfe() {
-  return new Worker("https://gymburgdorf.github.io/3e8-editor/assets/css.worker-b170d031.js");
+  return new Worker("/assets/css.worker-b170d031.js");
 }
 function zfe() {
-  return new Worker("https://gymburgdorf.github.io/3e8-editor/assets/html.worker-d3911940.js");
+  return new Worker("/assets/html.worker-d3911940.js");
 }
 function Ufe() {
-  return new Worker("https://gymburgdorf.github.io/3e8-editor/assets/ts.worker-4bf7c523.js");
+  return new Worker("/assets/ts.worker-4bf7c523.js");
 }
 self.MonacoEnvironment = {
   getWorker(o, e) {
